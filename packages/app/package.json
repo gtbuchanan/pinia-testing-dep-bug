@@ -1,0 +1,22 @@
+{
+  "name": "bug-report",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "pinia": "catalog:",
+    "vue": "3.5.13"
+  },
+  "devDependencies": {
+    "@pinia/testing": "catalog:test",
+    "@vitejs/plugin-vue": "catalog:tool",
+    "@vue/test-utils": "catalog:test",
+    "happy-dom": "catalog:test",
+    "vite": "catalog:tool",
+    "vitest": "catalog:test"
+  }
+}
